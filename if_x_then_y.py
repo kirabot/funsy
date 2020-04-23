@@ -9,7 +9,7 @@ je_words = ["u redu", "odlicno", "kul", "sjajno", "vazi", "ok", "je tako",
 
 def ako_je_tako():
 	
-	return "Ako " + words[randint(0, len(words))] + " onda " + je_words[randint(0, len(je_words))] + "."
+	return "Ako " + words[randint(0, len(words) - 1)] + " onda " + je_words[randint(0, len(je_words) - 1)] + "."
 
 
 print (ako_je_tako())
